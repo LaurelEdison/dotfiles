@@ -1,0 +1,16 @@
+require("lazy").setup({
+	require("colorschemes.catppuccin"),
+	require("plugins.lspconfig"),
+	require("plugins.treesitter"),
+	require("plugins.treesitter-context"),
+	require("plugins.todo-comments"),
+	require("plugins.indentomatic"),
+	require("plugins.lint"),
+	require("plugins.fugitive"),
+	require("plugins.telescope"),
+	require("plugins.gitsigns"),
+	require("plugins.oil"),
+	require("plugins.mini"),
+	require("plugins.conform"),
+	require("plugins.blink-cmp"),
+})

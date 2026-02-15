@@ -1,0 +1,124 @@
+@define-color white #FFFFFF;
+@define-color one #F5F5F5;
+@define-color two #E0E0E0;
+@define-color three #C0C0C0;
+@define-color four #A0A0A0;
+@define-color five #808080;
+@define-color six #606060;
+@define-color seven #404040;
+@define-color eight #202020;
+@define-color nine #101010;
+@define-color black #000000;
+
+
+* {
+	font-family: 'JetBrains Mono Nerd Font', monospace;
+	font-size: 12px;
+}
+
+/* Window */
+window {
+	margin: 0px;
+	padding: 10px;
+	border: 0.16em solid @white;
+	border-radius: 0.1em;
+	background-color: @black;
+	animation: slideIn 0.5s ease-in-out both;
+}
+
+/* Slide In */
+@keyframes slideIn {
+	0% {
+		opacity: 0;
+	}
+
+	100% {
+		opacity: 1;
+	}
+}
+
+/* Inner Box */
+#inner-box {
+	margin: 5px;
+	padding: 10px;
+	border: none;
+	background-color: @black;
+	animation: fadeIn 0.5s ease-in-out both;
+}
+
+/* Fade In */
+@keyframes fadeIn {
+	0% {
+		opacity: 0;
+	}
+
+	100% {
+		opacity: 1;
+	}
+}
+
+/* Outer Box */
+#outer-box {
+	margin: 5px;
+	padding: 10px;
+	border: none;
+	background-color: @black;
+}
+
+/* Scroll */
+#scroll {
+	margin: 0px;
+	padding: 10px;
+	border: none;
+	background-color: @black;
+}
+
+/* Input */
+#input {
+	margin: 5px 20px;
+	padding: 10px;
+	border: none;
+	border-radius: 0.1em;
+	color: @text;
+	background-color: @black;
+	animation: fadeIn 0.5s ease-in-out both;
+}
+
+#input image {
+	border: none;
+	color: @red;
+}
+
+#input * {
+	outline: 4px solid @red !important;
+}
+
+/* Text */
+#text {
+	margin: 5px;
+	border: none;
+	color: @six;
+	animation: fadeIn 0.5s ease-in-out both;
+}
+
+#entry {
+	background-color: @base;
+}
+
+#entry arrow {
+	border: none;
+	color: @four;
+}
+
+/* Selected Entry */
+#entry:selected {
+	border: 0.11em solid @four;
+}
+
+#entry:selected #text {
+	color: @four;
+}
+
+#entry:drop(active) {
+	background-color: @four !important;
+}

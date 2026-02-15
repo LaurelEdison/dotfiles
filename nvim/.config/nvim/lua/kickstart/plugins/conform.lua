@@ -34,6 +34,11 @@ return {
         go = { 'golangci-lint' },
         c = { 'clang-format' },
         cpp = { 'clang-format' },
+        javascript = { 'prettierd' },
+        typescript = { 'prettierd' },
+        typescriptreact = { 'prettierd' },
+        css = { 'prettierd' },
+        html = { 'prettierd' },
         -- Conform can also run multiple formatters sequentially
         -- python = { "isort", "black" },
         --

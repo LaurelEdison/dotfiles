@@ -4,6 +4,7 @@
 export PATH="$PATH:$(go env GOBIN):$(go env GOPATH)/bin"
 export PATH=$PATH:~/bin
 export MANPAGER="nvim +Man!"
+source /usr/share/nvm/init-nvm.sh
 # If not running interactively, don't do anything
 [[ $- != *i* ]] && return
 

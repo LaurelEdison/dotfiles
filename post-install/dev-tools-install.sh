@@ -34,6 +34,6 @@ PACKAGES=(
 )
 
 echo "Installing packages..."
-sudo pacman -S "${PACKAGES[@]}"
+sudo pacman -S --needed "${PACKAGES[@]}"
 
 echo "Done."

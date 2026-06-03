@@ -30,6 +30,7 @@ PACKAGES=(
     unzip
     vegeta
     valgrind
+    stow
 )
 
 echo "Installing packages..."

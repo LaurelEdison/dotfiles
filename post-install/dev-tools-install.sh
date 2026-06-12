@@ -31,6 +31,7 @@ PACKAGES=(
     vegeta
     valgrind
     stow
+    qemu-base
 )
 
 echo "Installing packages..."

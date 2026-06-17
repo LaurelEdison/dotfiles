@@ -32,6 +32,7 @@ PACKAGES=(
     valgrind
     stow
     qemu-base
+    man-pages
 )
 
 echo "Installing packages..."

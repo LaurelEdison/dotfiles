@@ -33,6 +33,8 @@ PACKAGES=(
     stow
     qemu-base
     man-pages
+    ripgrep
+    less
 )
 
 echo "Installing packages..."

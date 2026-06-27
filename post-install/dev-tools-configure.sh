@@ -8,6 +8,7 @@ sudo usermod -aG docker $USER
 
 echo "===rust==="
 rustup default stable
+rustup component add llvm-tools-preview
 
 echo "===git==="
 git config --global user.name "Ferdinand Laurel Edison"

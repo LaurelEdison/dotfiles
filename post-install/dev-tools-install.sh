@@ -15,7 +15,6 @@ PACKAGES=(
     neovim
     npm
     nvm
-    rustup
     docker
     docker-compose
     go
@@ -43,6 +42,10 @@ PACKAGES=(
     libappindicator-gtk3
     librsvg
     xdotool
+    htop
+    curl
+    strace
+    socat
 )
 
 echo "Installing packages..."

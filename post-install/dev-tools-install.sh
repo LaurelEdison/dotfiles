@@ -7,6 +7,7 @@ sudo pacman -Syu
 
 PACKAGES=(
     base-devel
+    clang
     git
     github-cli
     gitlab

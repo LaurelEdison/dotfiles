@@ -5,6 +5,8 @@ set -x
 echo "===docker==="
 sudo groupadd docker
 sudo usermod -aG docker $USER
+sudo systemctl enable docker.service
+sudo systemctl enable containerd.service
 
 echo "===rust==="
 rustup default stable

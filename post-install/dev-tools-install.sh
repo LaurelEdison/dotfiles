@@ -10,7 +10,6 @@ PACKAGES=(
     clang
     git
     github-cli
-    gitlab
     vim
     neovim
     npm
